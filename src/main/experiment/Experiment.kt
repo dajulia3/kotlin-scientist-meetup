@@ -1,9 +1,8 @@
 package experiment
 import com.codahale.metrics.MetricRegistry
-import com.codahale.metrics.Slf4jReporter
-import com.github.rawls238.scientist4j.*
+import com.github.rawls238.scientist4j.ExperimentBuilder
 import java.util.function.BiFunction
-import javax.print.attribute.IntegerSyntax
+
 /*
 The use of the typesafe builder pattern here is a bit contrived.
 In fact, you get safer code by just using the constructor with named parameters.
